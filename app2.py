@@ -25,7 +25,7 @@ def main():
     result=""
     if st.button("Predict"):
         result=predict_std_perf(hour_s,pre_score)
-    st.success('The output is {}'.format(result))
+    st.success('The estimated performance index is {}'.format(result))
     if st.button("About"):
         st.text("Lets Learn Python")
         st.text("Built with Streamlit")
